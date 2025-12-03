@@ -1,0 +1,22 @@
+{
+  "base": {
+    "mean_reward": -0.9973148378978173,
+    "std_reward": 1.1690296140644993,
+    "kl_divergence": 0.0
+  },
+  "ppo": {
+    "mean_reward": -1.099078404555718,
+    "std_reward": 1.2354659416282916,
+    "kl_divergence": 0.38429443269968033
+  },
+  "grpo": {
+    "mean_reward": -1.088327434298893,
+    "std_reward": 1.2598726077401878,
+    "kl_divergence": 1.012828921377659
+  },
+  "dpo": {
+    "mean_reward": -0.6325197551151117,
+    "std_reward": 1.2223032521324613,
+    "kl_divergence": 1.6391277945041656
+  }
+}

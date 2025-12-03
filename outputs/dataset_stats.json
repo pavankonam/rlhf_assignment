@@ -1,0 +1,9 @@
+{
+  "train_size": 160800,
+  "test_size": 8552,
+  "mean_chosen_length": 956.2049813432836,
+  "mean_rejected_length": 940.201013681592,
+  "length_bias": 16.003967661691604,
+  "chosen_longer_pct": 51.64303482587065,
+  "mean_turns": 2.361386815920398
+}
