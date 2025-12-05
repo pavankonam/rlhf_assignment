@@ -62,7 +62,7 @@ This bias is important because a reward model can inadvertently learn to reward 
 ---
 
 
-![Step 1 – Dataset analysis](outputs/figures_steps/step1.png)
+![Step 1 – Dataset analysis](outputs/figure_steps/step1.png)
 
 ### 1.2 Reward Model
 
@@ -123,7 +123,7 @@ Qualitative inspection of 25 misclassified preference pairs showed:
 ## Part 2: Policy Optimization
 
 
-![Step 2 – Reward model training](outputs/figures_steps/step2.png)
+![Step 2 – Reward model training](outputs/figure_steps/step2.png)
 
 ### 2.1 PPO Implementation
 
@@ -199,7 +199,7 @@ This matches the logic implemented in `step3_train_ppo.py`, where `old_values` f
 ---
 
 
-![Step 3 – PPO training](outputs/figures_steps/step3.png)
+![Step 3 – PPO training](outputs/figure_steps/step3.png)
 
 ### 2.2 GRPO Implementation
 
@@ -260,9 +260,9 @@ This matches the logic implemented in `step3_train_ppo.py`, where `old_values` f
 ---
 
 
-![Step 4 (warm-up) – GRPO sanity check](outputs/figures_steps/step4_start.png)
+![Step 4 (warm-up) – GRPO sanity check](outputs/figure_steps/step4_start.png)
 
-![Step 4 – GRPO training](outputs/figures_steps/step4.png)
+![Step 4 – GRPO training](outputs/figure_steps/step4.png)
 
 ### 2.3 PPO vs. GRPO Comparison
 
@@ -317,7 +317,7 @@ Despite training for only a single epoch, DPO substantially improves over the ba
 ---
 
 
-![Step 5 – DPO training](outputs/figures_steps/step5.png)
+![Step 5 – DPO training](outputs/figure_steps/step5.png)
 
 ## Part 4: Analysis and Evaluation
 
@@ -387,7 +387,7 @@ Reward ↑
 ---
 
 
-![Step 6 – Evaluation summary](outputs/figures_steps/evaluate.png)
+![Step 6 – Evaluation summary](outputs/figure_steps/evaluate.png)
 
 ### 4.2 Qualitative Analysis
 
